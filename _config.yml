@@ -1,0 +1,18 @@
+title: Katie Save Helper Wiki
+description: "Wiki for Katie Save Helper, a speedrunning utility mod for ENA: Dream BBQ"
+
+theme: just-the-docs
+color_scheme: dark
+
+source: docs
+
+url: "https://zieraell.github.io"
+baseurl: "/KatieSaveHelper-Wiki"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  GitHub Repository: https://github.com/ENA-Speedrunning-Tools/Katie-Save-Helper
+
+search_enabled: true
