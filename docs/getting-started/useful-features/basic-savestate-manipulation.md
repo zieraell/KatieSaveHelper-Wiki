@@ -18,7 +18,7 @@ nav_order: 1
 
 * While loaded into the game, you can warp to any area you would like using the `Warp` hotkeys.
 
-    * To warp back and forth between the list of areas, use the `WarpToNextScene` and `WarpToPrevScene` hotkeys
+    * To warp back and forth between the list of areas, use the `WarpToNextScene` and `WarpToPrevScene` hotkeys.
 
     * To warp back and forth between the list of *entrances* to an area, use the `WarpToNextEntrance` and `WarpToPrevEntrance` hotkeys.
 
@@ -28,13 +28,13 @@ nav_order: 1
 
 * The game can be *manually* saved with the `QuickSave` hotkey.
 
-    * Both *auto* and *manual* saves will store the last area and entrance you warped to as the new spawn point when loading the save.
+    * Both *auto* and *manual* saves will store the last area and entrance any mod hotkey (or the game itself) warps you to as the new spawn point when loading the save.
 
     * This is bound to the ***F1*** key by default.
 
 * You can toggle the game's *autosaving* feature *on* and *off* using the `ToggleGameAutoSaving` hotkey.
 
-    * If you would like the *autosaving* to be disabled automatically when the game is started, set the `GameAutoSavingDisabledByDefault` config setting to ***'true'***
+    * If you would like the *autosaving* to be disabled automatically when the game is started, set the `GameAutoSavingDisabledByDefault` config setting to ***'true'***.
 
     * This is not bound to a key by default.
 

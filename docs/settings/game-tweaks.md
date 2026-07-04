@@ -10,29 +10,29 @@ Options to tweak the game's vanilla functionality
 
 ### Seed Generators
 
-* *`SaveSeedGeneratorType`*: Which method the game should use to select a save seed when creating a new save
+* *`SeedType_Save_Generator_Type`*: Which method the game should use to select a save seed when creating a new save
 
     * Values can be the name of any [*Seed Generator*](../settings/common-input-types/enum/seed-generator.md), the default value is *'Random'*
 
         * The *Static* generator for this *seed type* uses the value from the *`StaticSaveSeed`* config setting
 
-* *`SessionSeedGeneratorType`*: Which method the game should use to select a session seed
+* *`SeedType_Session_Generator_Type`*: Which method the game should use to select a session seed
 
     * Values can be the name of any [*Seed Generator*](../settings/common-input-types/enum/seed-generator.md), the default value is *'Random'*
 
         * The *Static* generator for this *seed type* uses the value from the *`StaticSessionSeed`* config setting
         
-* *`HardwareSeedGeneratorType`*: Which method the game should use to select a hardware seed
+* *`SeedType_Hardware_Generator_Type`*: Which method the game should use to select a hardware seed
 
     * Values can be the name of any [*Seed Generator*](../settings/common-input-types/enum/seed-generator.md), the default value is *'Device'*
 
         * The *Static* generator for this *seed type* uses the value from the *`StaticHardwareSeed`* config setting
 
-* *`RegenerateSessionSeed_EventTrigger`*: Which event will trigger the game's active *Session* seed being regenerated using the method specified in the `SessionSeedGeneratorType` config setting
+* *`SeedType_Session_RegenerateSeed_EventTrigger`*: Which event will trigger the game's active *Session* seed being regenerated using the method specified in the `SessionSeedGeneratorType` config setting
 
     * Values can be the name of any [*Event Trigger*](../settings/common-input-types/enum/event-trigger.md), the default value is *'OnHotkey'*
 
-* *`RegenerateHardwareSeed_EventTrigger`*: Which event will trigger the game's active hardware seed being regenerated using the method specified in the `HardwareSeedGeneratorType` config setting
+* *`SeedType_Hardware_RegenerateSeed_EventTrigger`*: Which event will trigger the game's active hardware seed being regenerated using the method specified in the `HardwareSeedGeneratorType` config setting
 
     * Values can be the name of any [*Event Trigger*](../settings/common-input-types/enum/event-trigger.md), the default value is *'OnHotkey'*
 

@@ -16,6 +16,6 @@ An enum used by settings that *execute an action* whenever a certain *event* is 
 
 * ***OnHotkey***: Triggers whenever the action's relevant *hotkey* is pressed.
 
-    * Every `<Action>_EventTrigger` config setting will have an associated `<Action>_Key` setting, where the *hotkey* that triggers the *OnHotkey* event for it's specific *action* can be bound.
+    * Every `<Action>_EventTrigger` config setting has an associated `<Action>_Key` setting, where the *hotkey* that triggers the *OnHotkey* event for it's specific *action* can be bound.
 
     * If an `<Action>_EventTrigger` setting is not set to *'OnHotkey'*, that action's associated *hotkey* will be *disabled*.
