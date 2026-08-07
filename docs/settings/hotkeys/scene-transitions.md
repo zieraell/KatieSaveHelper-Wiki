@@ -4,7 +4,7 @@ parent: Hotkeys
 nav_order: 2
 ---
 
-Options to modify the *scene transitions* for each of the mod's *hotkey actions* that trigger a *scene change*
+Options to modify the *scene transition* for each of the mod's *hotkey actions* when they trigger a *scene change*
 
 <br>
 
@@ -14,7 +14,7 @@ Options to modify the *scene transitions* for each of the mod's *hotkey actions*
 
 <br>
 
-The following options will not impact the respective transition if it's type is set to *'Immediate'*:
+The following options will not impact the transition if it's type is set to *'Immediate'*:
 
 * *`HotkeySceneTransition_Color`*: The color that the *scene transition* will fade into and out of
 

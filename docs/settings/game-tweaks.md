@@ -78,7 +78,11 @@ Options to tweak the game's vanilla functionality
 
     * Values can be any [*boolean*](../settings/common-input-types/basic.md#boolean), the default value is *'false'*
 
-    * Similar to game save files, the *meta* save file will not be properly loaded without this mod present if it is *un-encrypted*. If this happens, the game will erase your meta save data and force you to repeat the cold open after it is launched, which is mildly annoying. To avoid this, just make sure you disable this setting and quickly open/close the game before uninstalling the mod. If you are already in-game, you can disable the setting, reload the config, and close the game for the same effect.
+    <sub>⚠️ Similar to game save files, the *meta* save file will not be properly loaded without this mod present if it is *un-encrypted*. If this happens, the game will erase your meta save data and force you to repeat the cold open after it is launched, which is mildly annoying.</sub>
+    
+    <sub>To avoid this, just make sure you disable this setting and quickly open/close the game before uninstalling the mod. If you are already in-game, you can disable the setting, reload the config, and close the game for the same effect.</sub>
+
+    <br>
 
 * *`DisableSteamRemoteSaveSync`*: Whether the mod should prevent the game from overwriting existing save files with backups from *Steam Remote Storage* on launch
 

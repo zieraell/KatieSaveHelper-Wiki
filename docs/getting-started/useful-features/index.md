@@ -36,3 +36,7 @@ All runs submitted to the game's <a href="https://www.speedrun.com/dreambbq" tar
 The way this feature works is simple, every time you *would have* triggered an *achievement* popup through *Steam*, the mod will add the *achievement* to the current save's own seperate list of *achievements*, which will be stored and retrieved from it's *save file* just like vanilla save data.
 
 When the `NotifyOnSimulatedAchievements` config setting is set to *'true'*, the mod will show a *notification* on your screen every time a unique *achievement* is added to the current save's *simulated achievements list*, displaying both the name of the *achievement* and the number of *achievements* the save has in it's list.
+
+<figure>
+    <img src="{{ site.baseurl }}/assets/images/simach_example.png" width="475">
+</figure>

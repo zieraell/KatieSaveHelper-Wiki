@@ -36,7 +36,7 @@ Things *Save seeds* determine include:
 
 <br>
 
-Using the *PseudoRandom* generator for *Save* seeds is extremely useful if you are interested in helping the speedrun community search for *Save* seeds that are already optimal, but have a better *raft* layout in the *Core River*. The default *PseudoRandomizer* settings for this seed type already account for the current meta, so further configuration should not be needed, unless you would like to filter out certain obstacles from the *Purge Event* or ensure the *Lost Village* has multiple knockable doors for *All Achievement* runs.
+Using the *PseudoRandom* generator for *Save* seeds is extremely useful if you are interested in helping the speedrun community search for *Save* seeds that are already optimal, but have a better *raft* layout in the *Core River*. The default *PseudoRandomizer* settings for this seed type already account for the current meta, so further configuration should not be needed, unless you would like to filter out more obstacles from the *Purge Event* or ensure the *Lost Village* has multiple knockable doors for *All Achievement* runs.
 
 ### Session Seeds
 

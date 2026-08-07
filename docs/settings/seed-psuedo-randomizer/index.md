@@ -31,7 +31,7 @@ Below are the various events the mod's *pseudo-randomizer* will target when gene
 
 * *`PurgeObstacles_Target`*: The dog obstacles within each generated room during the Purge Event Maze
 
-    * The default value is *'**Any, !WanderingFish'*
+    * The default value is *'\*\*Any, !WanderingFish'*
 
     * For more info about this setting, see [PurgeObstacles_Target](purgeobstacles_target.md)
 

@@ -28,7 +28,7 @@ Options to modify the on-screen *toast notifications* that are triggered by cert
 
     * Values can be any [*boolean*](../settings/common-input-types/basic.md#boolean), the default value is *'false'*
 
-* *`NotifyOnSimulatedAchievements`*: Whether the mod should display a *toast notification* when the game ***internally triggers an achievement*** that isn't already in the mod's *Simulated Achievements* list
+* *`NotifyOnSimulatedAchievements`*: Whether the mod should display a *toast notification* when the game ***internally triggers an achievement*** that isn't already in the current save's *Simulated Achievements* list
 
     * Values can be any [*boolean*](../settings/common-input-types/basic.md#boolean), the default value is *'false'*
 
@@ -97,7 +97,7 @@ Options to modify the on-screen *toast notifications* that are triggered by cert
 
     * Values can be any [*float*](../settings/common-input-types/basic.md#float) 0 or above, the default value is *'1.50'*
 
-* *`SimulatedAchievementToast_HoldTime`*: How long *Simulated Achievement* toasts should remain on the screen before starting to fade out
+* *`SimulatedAchievementToast_HoldTime`*: The amount of time that *Simulated Achievement* toasts should remain on the screen before starting to fade out
 
     * Values can be any [*float*](../settings/common-input-types/basic.md#float) 0 or above, the default value is *'5.0'*
 
