@@ -28,8 +28,6 @@ Things *Save seeds* determine include:
 
 * The goal directions and dog obstacles in the *Purge Event*
 
-* The starting positions of the rafts in the *Core*
-
 * Whether one door or multiple in the *Lost Village* can be knocked on
 
 * The starting positions of the *Core* river's rafts after loading into it's area

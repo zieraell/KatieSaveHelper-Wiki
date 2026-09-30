@@ -71,6 +71,8 @@ Below are the various events the mod's *pseudo-randomizer* will target when gene
 
     * When set to *'true'*, only positive seed values can be generated. When set to *'false'*, both positive and negative seed values can be generated, effectively **doubling** the number of possible seeds.
 
+        <sub>⚠️ Runs that are submitted to the game's <a href="https://www.speedrun.com/dreambbq" target="_blank" rel="noopener noreferrer">*speedrunning leaderboard*</a> will not be verified if they make use of Save files that contain *negative* Save seeds</sub>
+
 * *`SearchAttemptLimit`*: The maximum number of attempts the *pseudo-randomizer* will make to find a matching seed before quitting
 
     * Values can be any [*integer*](../settings/common-input-types/basic.md#integer), the default value is *'1000000'*

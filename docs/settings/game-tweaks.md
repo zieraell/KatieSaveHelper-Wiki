@@ -78,7 +78,7 @@ Options to tweak the game's vanilla functionality
 
     * Values can be any [*boolean*](../settings/common-input-types/basic.md#boolean), the default value is *'false'*
 
-    <sub>⚠️ Similar to game save files, the *meta* save file will not be properly loaded without this mod present if it is *un-encrypted*. If this happens, the game will erase your meta save data and force you to repeat the cold open after it is launched, which is mildly annoying.</sub>
+    <sub>⚠️ Similar to game save files, the *meta* save file will not be properly loaded without this mod present if it is *un-encrypted*. If this happens, the game will erase your meta save data, which will make it forget about any *Collectibles* you picked up (if you own the *Supporter* edition of the game), and force you to restart the game's *cold open* segment when it is next launched.</sub>
     
     <sub>To avoid this, just make sure you disable this setting and quickly open/close the game before uninstalling the mod. If you are already in-game, you can disable the setting, reload the config, and close the game for the same effect.</sub>
 
@@ -96,4 +96,4 @@ Options to tweak the game's vanilla functionality
 
     * Values can be any [*boolean*](../settings/common-input-types/basic.md#boolean), the default value is *'false'*
 
-        <sub>⚠️ If the game's autosaving feature is forcibly disabled at any point during a speedrun submitted to the <a href="https://www.speedrun.com/dreambbq" target="_blank" rel="noopener noreferrer">*speedrunning leaderboard*</a>, the run will not be verified</sub>
+        <sub>⚠️ If the game's autosaving feature is forcibly disabled at any point during a speedrun submitted to the game's <a href="https://www.speedrun.com/dreambbq" target="_blank" rel="noopener noreferrer">*speedrunning leaderboard*</a>, the run will not be verified</sub>
