@@ -7,7 +7,7 @@ nav_order: 2
 
 Extra fields can easily be added to existing objects of any class type by using the mod's *Custom Data* system.
 
-⚠️ ***Please note that this feature is currently unfinished and subject to changes in future updates*** ⚠️
+⚠️ ***Please note that this feature is currently unfinished and subject to changes in future updates***
 
 
 ### Assigning and Managing Custom Data

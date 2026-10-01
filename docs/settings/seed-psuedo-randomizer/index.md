@@ -4,7 +4,7 @@ parent: Settings
 nav_order: 3
 ---
 
-Options to configure the mod's *seed pseudo-randomizer* feature, which allows generating and loading random seeds that would trigger specific in-game events
+Options to configure the mod's *seed pseudo-randomizer* feature, which allows generating and loading random seeds that would cause certain in-game events to occur in a specific way.
 
 <br>
 

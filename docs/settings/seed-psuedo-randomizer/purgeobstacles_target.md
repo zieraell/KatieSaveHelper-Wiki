@@ -36,9 +36,9 @@ nav_order: 2
 
 * When a **'\*'** symbol is placed at the start of the setting input, the list converts to using a more **shorthand format**, where each entry only represents a condition for the desired obstacle in the **goal direction** for each room, specified in `PurgeGoals_Target`.
 
-    * <span class="example">For example, <em>'Any, FishStruggle, Any'</em> could be shortened to <em>'*FishStruggle'</em>, because the first <strong>goal direction</strong> is always <strong>forward</strong>, regardless of seed.</span>
+    * <span class="example">For example, <em>'Any, FishStruggle, Any'</em> could be shortened to <em>'*FishStruggle'</em>, because the first <strong>goal direction</strong> is always <strong>forward</strong>, regardless of the seed</span>
 
-* Assuming `PurgeGoals_Target` was set to the default value (*'\*RLRLRL'*), *'\*SneakAttack, !WanderingFish'* would be the **shorthand** version of *'Any, SneakAttack, Any, Any, Any, !WanderingFish'*, making sure the **first** generated room has a room **with** the *SneakAttack* obstacle past it's **forward** door, and that the **second** generated room has a room **without** the *WanderingFish* obstacle past it's **right** door.
+    * <span class="example"> Assuming <code>PurgeGoals_Target</code> was set to the default value (<em>'*RLRLRL'</em>), <em>'*SneakAttack, !WanderingFish'</em> would be the <strong>shorthand</strong> version of <em>'Any, SneakAttack, Any, Any, Any, !WanderingFish'</em>, making sure the <strong>first</strong> generated room has a room <strong>with</strong> the <em>SneakAttack</em> obstacle past it's <strong>forward</strong> door, and that the <strong>second</strong> generated room has a room <strong>without</strong> the <em>WanderingFish</em> obstacle past it's <strong>right</strong> door</span>
 
 * Since this **shorthand** format assumes you will **only** be generating rooms past the entrances in each **goal direction**, the list only takes **up to five** entries, as the game will stop generating room obstacles when you have **two or less** goals left. So, the specific direction for each entry using this format will always be *'Forward'* plus the **first four** directions listed in your current `PurgeGoals_Target` config setting. In the case of using the default value (again, *'\*RLRLRL'*), these would be *'Right', 'Left', 'Right', 'Left'*.
 
